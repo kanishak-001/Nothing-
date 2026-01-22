@@ -1,0 +1,4 @@
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thank you for your message! (This is a demo – in a real site, this would send data to a server.)');
+});
